@@ -62,7 +62,7 @@ class CarlaRosScenarioRunner(CompatibleNode):
         role_name = self.get_param("role_name", "ego_vehicle")
         scenario_runner_path = self.get_param("scenario_runner_path", "")
         wait_for_ego = self.get_param("wait_for_ego", "True")
-        host = self.get_param("host", "localhost")
+        host = self.get_param("host", "10.8.179.139")
         port = self.get_param("port", 2000)
 
         self._status_publisher = self.new_publisher(
