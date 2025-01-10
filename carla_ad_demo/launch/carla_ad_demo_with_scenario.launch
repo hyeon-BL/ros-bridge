@@ -1,7 +1,7 @@
 <!-- -->
 <launch>
   <!-- carla parameter -->
-  <arg name='host' default='localhost'/> <!-- host the carla server is running on -->
+  <arg name='host' default='10.8.179.139'/> <!-- host the carla server is running on -->
   <arg name='port' default='2000'/> <!-- port of the carla server -->
   <arg name="town" default="Town01"/> <!-- the carla town to load-->
   <arg name='timeout' default='10'/> <!-- the carla timeout for server communication -->

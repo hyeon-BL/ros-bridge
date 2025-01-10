@@ -8,7 +8,7 @@ def generate_launch_description():
     ld = launch.LaunchDescription([
         launch.actions.DeclareLaunchArgument(
             name='host',
-            default_value='localhost'
+            default_value='10.8.179.139'
         ),
         launch.actions.DeclareLaunchArgument(
             name='port',

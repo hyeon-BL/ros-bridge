@@ -387,7 +387,7 @@ def main(args=None):
 
     roscomp.on_shutdown(carla_bridge.destroy)
 
-    parameters['host'] = carla_bridge.get_param('host', 'localhost')
+    parameters['host'] = carla_bridge.get_param('host', '10.8.179.139')
     parameters['port'] = carla_bridge.get_param('port', 2000)
     parameters['timeout'] = carla_bridge.get_param('timeout', 2)
     parameters['passive'] = carla_bridge.get_param('passive', False)

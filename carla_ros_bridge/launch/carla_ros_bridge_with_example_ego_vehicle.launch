@@ -1,7 +1,7 @@
 <!-- -->
 <launch>
   <!-- CARLA connection -->
-  <arg name='host' default='localhost'/>
+  <arg name='host' default='10.8.179.139'/>
   <arg name='port' default='2000'/>
   <arg name='timeout' default='10'/>
 
