@@ -11,3 +11,6 @@ build.gradle
 build/
 install/
 log/
+
+# test image data
+_img
