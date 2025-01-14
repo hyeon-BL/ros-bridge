@@ -1,3 +1,4 @@
+# in the virtual environment, pip install -
 pep8
 autopep8
 cmake_format==0.6.11
@@ -7,3 +8,6 @@ pygame
 pexpect
 simple-pid
 networkx
+carla
+jupyter
+opencv-python
